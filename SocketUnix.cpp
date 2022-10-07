@@ -7,6 +7,7 @@
   简化UNIX本地Socket编程的类
 */
 
+#include <cstring>
 #include "SocketUnix.hpp"
 #include "Logger.hpp"
 #include <cstdio>
