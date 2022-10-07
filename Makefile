@@ -4,7 +4,8 @@ GCC=g++
 COPY=cp
 REMOVE=rm -rf
 CCLIB=-lpthread
-GCCFLAGS=-O3 -Wall -mtune=core2 -msse4.2 -pthread -g
+#GCCFLAGS=-O3 -Wall -mtune=core2 -msse4.2 -pthread -g
+GCCFLAGS=-O3 -Wall -mtune=core2 -msse4.2 -pthread
 
 all_exes=$(psmon_exe) $(pscli_exe)
 
